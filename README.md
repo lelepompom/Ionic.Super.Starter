@@ -83,6 +83,7 @@ your API url in the Api class and call get/post/put/patch/delete
 Ionic Super Starter comes with internationalization (i18n) out of the box with
 [ngx-translate](https://github.com/ngx-translate/core). This makes it easy to
 change the text used in the app by modifying only one file. 
+app.component.ts set the default language on initTranslate() { this.translate.setDefaultLang('en'); }
 
 ### Adding Languages
 
